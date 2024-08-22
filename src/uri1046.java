@@ -17,7 +17,7 @@ public class uri1046 {
 			duracao = 24 - horaInicial + horaFinal;
 		}
 		
-		System.out.println("O JOGO DUROU " + duracao + " HORA(S)");
+		System.out.println("O JOGO DUROU " + Math.abs(duracao) + " HORA(S)");
 		
 		sc.close();
 	}
